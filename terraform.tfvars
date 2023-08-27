@@ -1,5 +1,5 @@
 aws_access_key = ${{ secrets.AWS_ACCESS_KEY_ID }}
-aws_secret_key = okdja8FxEsZ1Sg0CC6PI15W22G87XALp6yuWWfO1
+aws_secret_key = ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 db_password    = "m2n1shlko"
 db_name        = "fast"
 db_username    = "postgres"
